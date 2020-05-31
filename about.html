@@ -1,0 +1,94 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="sitedesignabout.css">
+<script type="text/javascript" src="code.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<title>
+</title>
+</head>
+<body>
+<div class="row1">
+<div id="r1c1" class="row1">
+<span class="quote"><b>"knowing yourselves is the beginning of all wisdom" -Aristotle</b></span>
+</div>
+<div id="r1c2" class="row1">
+<span id="head"><b>ABOUT</b></span>
+</div>
+</div>
+
+<div id="row2">
+<div id="r2c1">
+<button class="buttons" onclick="window.location.href='mysite.html';"> Home </button>
+<button class="buttons" onclick="window.location.href='about.html';">About Me</button>
+<button class="buttons" onclick="window.location.href='education.html';">Education</button>
+<button class="buttons" onclick="window.location.href='prog.html';">Programming</button>
+<button class="buttons" onclick="window.location.href='cont.html';">Contact</button>
+
+
+</div>
+<div id="r2c2">
+<H1> Hey There!! I'm <span class="animate"></span></H1>
+<p id="content">
+Student || Amdavadi || Currently studying in Chennai.
+<br>
+<br>
+A social, fun loving guy who's always in for wandering.
+<br>
+<br>
+Textrovert. Ambivert. Nocturnal. Indolent. Insouciant.
+<br>
+<br>
+Living in the moment!! Capre Diem.
+<br>
+<br>
+My hobbies include playing cricket, chilling out, programming(surprisingly), dramas, managing events(not my room ofc).
+<br>
+<br>
+Currently Saying Yes to the New Adventures!!:-)
+</p>
+</div>
+
+<div id="r2c3">
+<img class="myimages"  src="p2.jpg">
+<img class="myimages"  src="p3.jpg">
+<img class="myimages"  src="p5.jpg">
+<img class="myimages"  src="p6.jpg">
+<img class="myimages"  src="p7.jpg">
+<img class="myimages"  src="p8.jpg">
+<img class="myimages"  src="p9.jpg">
+<img class="myimages"  src="p10.jpg">
+</div>
+</div>
+
+<script>
+var myindex=0;
+carousel();
+
+function carousel()
+{
+	var i;
+	var x=document.getElementsByClassName("myimages");
+
+	for(i=0;i<x.length;i++)
+	{
+		x[i].style.display="none";
+	}
+	myindex++;
+	if(myindex>x.length)
+	{myindex=1;}
+	x[myindex-1].style.display="block";
+	setTimeout(carousel,2000);
+}
+</script>
+
+<script>
+  var typed = new Typed('.animate', {
+    strings:["Parth Ajmera,18."],
+	typeSpeed: 1,
+  });
+</script>
+
+
+</body>
+</html>
+
