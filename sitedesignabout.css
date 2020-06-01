@@ -72,7 +72,7 @@ body
 
 #tab
 {
-	font-size:300%;
+	font-size:30px;
 	text-align:center;
 }
 .buttons
@@ -107,8 +107,8 @@ body
 @keyframes example
 {
 	0%{width:0%;}
-	50%{width:100%;}
-	100%{width:101%;}
+	50%{width:99%;}
+	100%{width:100%;}
 }
 
 H1
@@ -120,7 +120,7 @@ H1
 
 .animate
 {
-	font-size:150%;
+	font-size:35px;
 	color:chartreuse;
 	text-align:left;
 	font-family:"Perpetua";
@@ -131,12 +131,12 @@ span.quote
 	color:lightyellow;
 	padding-left:150px;
 	top:50px;
-	font-size:150%;
+	font-size:20px;
 }
 #content
 {
 	margin-left:5%;
 	color:lightyellow;
-	font-size:150%;
+	font-size:20px;
 	font-family:"Perpetua";
 }
