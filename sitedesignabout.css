@@ -3,6 +3,12 @@ body
 	background-color:black;
 }
 
+@viewport
+{
+	width:device-width;
+	zoom: 1.0;
+}
+
 .row1
 {
 	font-size:20px;
@@ -137,6 +143,6 @@ span.quote
 {
 	margin-left:5%;
 	color:lightyellow;
-	font-size:20px;
+	font-size:25px;
 	font-family:"Perpetua";
 }
