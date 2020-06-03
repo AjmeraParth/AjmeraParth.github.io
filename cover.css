@@ -1,7 +1,8 @@
 body
 {
 	background-image:url('bg.jpg');
-	background-size:cover;	
+	background-size:cover;
+	
 }
 
 img
@@ -29,12 +30,12 @@ button
 	width:100%;
 	height:10%;
 	background-color:#333333;
-	border:2% solid grey; 
+	border:2px solid grey; 
 	text-align:center;
 	color:white;
 	font-family:"perpetua";
 	font-size:110%;
-	border-radius:15%;
+	border-radius:15px;
 	float:left;
 	transition: width:100%; height:10%;
 }
